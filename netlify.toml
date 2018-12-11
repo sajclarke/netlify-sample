@@ -1,0 +1,7 @@
+# Global settings applied to the whole site.
+[build]
+  command = "yarn run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "8.9.0"

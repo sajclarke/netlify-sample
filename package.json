@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "build-create-react-app-netlify": "^1.1.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -10,6 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-netlify": "build-create-react-app-netlify",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
